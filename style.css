@@ -47,6 +47,22 @@ a {
   text-decoration: none;
   color: var(--color-white);
 }
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
 /* Typograghy */
 h1 {
   font-size: var(--font-large);
@@ -86,13 +102,12 @@ h3 {
 .navbar__menu_item {
   padding: 8px 12px;
   margin: 0 4px;
-  list-style: none;
   cursor: pointer;
   border-radius: var(--size-border-radius);
 }
 
 .navbar__logo {
-  font-size: var(--font-medium)
+  font-size: var(--font-medium);
 }
 
 .navbar__menu_item.active {
@@ -101,4 +116,32 @@ h3 {
 
 .navbar__menu_item:hover {
   background-color: var(--color-dark-pink);
+}
+
+/* Home */
+#home {
+  background: url(Imgs/homebackground.png) center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+#home__avatar {
+  width: 250px;
+  height: 325px;
+  border-radius: 50%;
+  border: 3px solid var(--color-light-white);
+}
+
+.home__title, .home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--font-regular);
+  padding: 8px 12px;
+  margin: 24px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
 }
