@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-regular);
+  font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
   margin: 8px 0;
@@ -385,6 +385,7 @@ h3 {
 
 .testimonial {
   display: flex;
+  align-items: center;
   margin: 32px 0;
 }
 
@@ -415,4 +416,40 @@ h3 {
 
 .testimonial__speach-bubble a {
   color:var(--color-pink);
+}
+
+/* Contact */
+#contact {
+  background-color: var(--color-pink);
+}
+
+.contact__title, .contact__email,
+.contact__links {
+  color: var(--color-white);
+}
+
+.contact__rights {
+  color: var(--color-dark-white);
+  margin-top: 0px;
+}
+
+.contact__email {
+  margin-bottom: 0px;
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.naver__blog {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.contact__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-large);
 }
