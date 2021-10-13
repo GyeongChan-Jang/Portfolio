@@ -21,7 +21,7 @@
   <!-- Navbar -->
   <nav id="navbar">
     <div class="navbar__logo">
-      <img src="imgs/favicon.png" alt="logo" width="25" height="25">
+      <i class="fas fa-smile-beam"></i>
       <a href="">Chan</a>
     </div>
     <div class="navbar__menu">
@@ -43,7 +43,7 @@
   <!-- Home -->
   <section id="home">
     <img src="Imgs/chan.JPG" alt="Chan's Portfolio Photo" id="home__avatar" width="300" height="400">
-    <h1 class="home__title">Hello, <br> I'm Dream Coder</h1>
+    <h1 class="home__title">Hello, <br> I am passionate about coding.</h1>
     <h2 class="home__description">계속 성장하고 발전하는 개발자가 되려고 노력합니다.</h2>
     <button class="home__contact">Contact Me</button>
   </section>
@@ -62,43 +62,47 @@
         </div>
         <h2 class="mjor__title">Front-end</h2>
         <div class="mjor__description">
-          HTML, CSS, JavaScipt, TypeScript,
-          <br>React, Vue, Web APIs
+          HTML, CSS, JavaScipt, BootStrap
         </div>
       </div>
       <div class="mjor">
         <div class="mjor__icon">
-          <i class="fas fa-mobile"></i>
+          <i class="fas fa-chart-line"></i>
         </div>
-        <h2 class="mjor__title">Mobile</h2>
+        <h2 class="mjor__title">Visualization</h2>
         <div class="mjor__description">
-          Android, iOS, Reavt Native, Flutter,
-          <br>Java, Swift, Kotlin
+          Tableau, Excel, Matplotlib, Seaborn
         </div>
       </div>
       <div class="mjor">
         <div class="mjor__icon">
-          <i class="fas fa-server"></i>
+          <i class="fas fa-table"></i>
         </div>
-        <h2 class="mjor__title">Back-end</h2>
+        <h2 class="mjor__title">Big Data</h2>
         <div class="mjor__description">
-          Java, JavaScript, Go, NodeJS,
-          <br>Rest APIs, GraphGL
+          Machine learning, Database, SQL
         </div>
       </div>
     </div>
     <div class="about__study">
       <div class="study">
-        <img class="study__img" src="imgs/codepresso.jpeg" alt="codepresso">
+        <img class="study__img" src="imgs/inha2.jpeg" alt="codepresso">
         <div class="study__description">
-          <p class="study__content">데이터 공부, 자격증</p>
-          <p class="study__period">2020</p>
+          <p class="study__content">인하대학교 사범대학 체육교육과 4학년 재학중</p>
+          <p class="study__period">2018~</p>
         </div>
       </div>
       <div class="study">
         <img class="study__img" src="imgs/financial_academy.jpeg" alt="financial_academy">
         <div class="study__description">
-          <p class="study__content">개발 공부</p>
+          <p class="study__content">개인금융과 자산관리과정</p>
+          <p class="study__period">2019</p>
+        </div>
+      </div>
+      <div class="study">
+        <img class="study__img" src="imgs/codepresso.jpeg" id="codepresso">
+        <div class="study__description">
+          <p class="study__content">금융 빅데이터 교육</p>
           <p class="study__period">2021</p>
         </div>
       </div>
@@ -142,7 +146,7 @@
               <span>60%</span>
             </div>
             <div class="skill__bar">
-              <div class="skill__value" style="width: 70%;"></div>
+              <div class="skill__value" style="width: 60%;"></div>
             </div>
           </div>
           <div class="skill">
@@ -151,7 +155,7 @@
               <span>70%</span>
             </div>
             <div class="skill__bar">
-              <div class="skill__value" style="width: 50%;"></div>
+              <div class="skill__value" style="width: 70%;"></div>
             </div>
           </div>
           <div class="skill">
@@ -169,7 +173,7 @@
             <h3 class="skills__title">Tools</h3>
             <ul class="tools__list">
               <li><span>Visual Studio Code</span></li>
-              <li><span>Python Charm</span></li>
+              <li><span>Tableau</span></li>
               <li><span>Atom</span></li>
               <li><span>MySQL</span></li>
               <li><span>Oracle</span></li>
@@ -180,8 +184,7 @@
             <h3 class="skills__title">Etc</h3>
             <ul class="etc__list">
               <li><span>Git</span></li>
-              <li><span>Sklearn</span></li>
-              <li><span>Tensorflow</span></li>
+              <li><span>Git Hub</span></li>
             </ul>
           </div>
         </div>
@@ -191,74 +194,74 @@
   <!-- Work -->
   <section id="work" class="section">
     <div class="section__container">
-      <h1>Work</h1>
-      <h3>Projects</h3>
+      <h1>Project</h1>
+      <h3>Toy Projects</h3>
       <div class="work__category">
         <button class="category__btn active">
-          All<span class="category__count">8</span>
+          All<span class="category__count">3</span>
         </button>
         <button class="category__btn">
-          Front-end<span class="category__count">3</span>
+          Front-end<span class="category__count">1</span>
         </button>
         <button class="category__btn">
-          Back-end<span class="category__count">2</span>
+          Big data<span class="category__count">1</span>
         </button>
         <button class="category__btn">
-          Mobile<span class="category__count">3</span>
+          Finance<span class="category__count">1</span>
         </button>
       </div>
       <div class="work__projects">
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/1.png" alt="luna" width="50" height="50" class="project__img">
+          <img src="imgs/cafe1.png" alt="luna" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>Luna Ecosystem</h3>
             <span>How to work Luna Ecosystem</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/2.png" alt="kokoa" width="50" height="50" class="project__img">
+          <img src="imgs/cafe2.png" alt="kokoa" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>KOKOA Finance</h3>
             <span>KOKOA Finance is Scam?</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/3.png" alt="Anchor" width="50" height="50" class="project__img">
+          <img src="imgs/bootstrap3.jpg" alt="Anchor" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>Anchor Protocol</h3>
             <span>How to work Anchor Protocol?</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/4.png" alt="Klaytn" width="50" height="50" class="project__img">
+          <img src="imgs/bootstrap2.jpg" alt="Klaytn" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>Klaytn Price</h3>
             <span>Klayton price is soaring?</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/5.png" alt="gluwa" width="50" height="50" class="project__img">
+          <img src="imgs/bootstrap.jpg" alt="gluwa" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>Gluwa</h3>
             <span>What is gluwa?</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/6.png" alt="ksp" width="50" height="50" class="project__img">
+          <img src="imgs/bitcoin.png" alt="ksp" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>Klay Swap</h3>
             <span>How to work Klay Swap?</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/7.png" alt="kfi" width="50" height="50" class="project__img">
+          <img src="imgs/bitcoin2.png" alt="kfi" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>KlayFi</h3>
             <span>How to work KlayFi</span>
           </div>
         </a>
         <a href="깃허브주소" class="project" target="blank">
-          <img src="imgs/Projects/8.png" alt="strike" width="50" height="50" class="project__img">
+          <img src="imgs/bitcoin3.png" alt="strike" width="50" height="50" class="project__img">
           <div class="project__description">
             <h3>Strike</h3>
             <span>How to work Lightning Network</span>
