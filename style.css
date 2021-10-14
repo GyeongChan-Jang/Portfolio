@@ -399,6 +399,7 @@ h3 {
 .testimonial {
   display: flex;
   margin: 32px 0;
+  justify-content: center;
 }
 
 .testimonial__avatar {
@@ -471,7 +472,7 @@ h3 {
   .navbar__toogle-btn {
     display: block;
   }
-
+  
   #navbar {
     flex-direction: column;
     align-items: flex-start;
