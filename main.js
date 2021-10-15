@@ -29,7 +29,24 @@ HomeContactBtn.addEventListener('click', () => {
   scrollIntoView('#contact');
 });
 
+// Home fade out effect when scrolling
+const home = document.querySelector('.home__container')
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll', () => {
+  home.style.opacity = 1 - window.scrollY / homeHeight
+});
+
+
+
+
+
+
+
+
+// Utility Function
 function scrollIntoView(selector) {
   const scrolltoContact = document.querySelector(selector);
   scrolltoContact.scrollIntoView({ behavior: 'smooth' });
 };
+
+
