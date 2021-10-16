@@ -114,18 +114,16 @@ h3 {
   margin: 0 4px;
   cursor: pointer;
   border-radius: var(--size-border-radius);
+  border: 1px solid transparent;
 }
 
 .navbar__logo {
   font-size: var(--font-medium);
 }
 
-.navbar__menu_item.active {
-  border: 1px solid var(--color-white);
-}
-
 .navbar__menu_item:hover {
   background-color: var(--color-dark-mint);
+  border-color: var(--color-white);
 }
 
 .navbar__toogle-btn {
@@ -312,13 +310,13 @@ h3 {
   
 }
 
-.category__btn.active,
+.category__btn.selected,
 .category__btn:hover {
   background-color: var(--color-mint);
   color: var(--color-white);
 }
 
-.category__btn.active .category__count,
+.category__btn.selected .category__count,
 .category__btn:hover .category__count {
   opacity: 1;
   top: 0;
