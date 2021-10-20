@@ -114,7 +114,10 @@ h3 {
   margin: 0 4px;
   cursor: pointer;
   border-radius: var(--size-border-radius);
-  border: 1px solid transparent;
+}
+
+.navbar__menu_item.active {
+  border: 1px solid var(--color-white);
 }
 
 .navbar__logo {
